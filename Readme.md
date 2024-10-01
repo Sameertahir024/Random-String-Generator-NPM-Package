@@ -48,7 +48,7 @@ If you encounter any issues or have questions, please file an issue on the GitHu
 
 ## Changelog
 
-### 1.0.1
+### 1.0.5
 
 - Initial release
 - Basic string generation functionality

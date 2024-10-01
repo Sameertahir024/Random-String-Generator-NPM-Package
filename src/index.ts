@@ -71,6 +71,8 @@ function getCharset(charset: Charset): string {
   throw new Error("Invalid charset");
 }
 
-export = {
+const stringGenerate = {
   generate,
 };
+
+export { stringGenerate as default, generate };
