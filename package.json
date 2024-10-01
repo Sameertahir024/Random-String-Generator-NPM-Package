@@ -1,6 +1,6 @@
 {
-  "name": "string-generater",
-  "version": "1.0.4",
+  "name": "string-generate",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "type": "commonjs",
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "crypto": "^1.0.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0"
+    "dotenv": "^16.4.5"
   }
 }

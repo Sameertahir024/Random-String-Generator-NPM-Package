@@ -71,6 +71,8 @@ function getCharset(charset: Charset): string {
   throw new Error("Invalid charset");
 }
 
+console.log(generate());
+
 export = {
   generate,
 };

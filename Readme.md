@@ -1,4 +1,4 @@
-# string-generater
+# string-generate
 
 A versatile TypeScript/JavaScript library for generating random strings with customizable options.
 
@@ -7,15 +7,15 @@ A versatile TypeScript/JavaScript library for generating random strings with cus
 Install the package using using npm :
 
 ```javascript
-npm install string-generater
+npm install string-generate
 ```
 
 ## Usage
 
-First, import the `string-generater` function from the package:
+First, import the `string-generate` function from the package:
 
 ```javascript
-import { generate } from "string-generater";
+import { generate } from "string-generate";
 
 Generates a random string based on the specified length and options.
 
@@ -48,7 +48,7 @@ If you encounter any issues or have questions, please file an issue on the GitHu
 
 ## Changelog
 
-### 1.0.4
+### 1.0.6
 
 - Initial release
 - Basic string generation functionality
