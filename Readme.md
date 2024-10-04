@@ -17,21 +17,26 @@ First, import the `string-generate` function from the package:
 ```javascript
 import { generate } from "string-generate";
 
-Generates a random string based on the specified length and options.
+console.log(generate());
+// Default 32-character alphanumeric string
 
-console.log(generate()); // Default 32-character alphanumeric string
+console.log(generate(7));
+// 7-character alphanumeric string
 
-console.log(generate(7)); // 7-character alphanumeric string
-
-console.log(generate({ length: 12, charset: 'alphabetic' })); // 12-character alphabetic string
+console.log(generate({ length: 12, charset: "alphabetic" }));
+// 12-character alphabetic string
 // or use these charset| "alphanumeric" | "numeric" | "!@#$%^&*()" | "hex"
 
-console.log(generate({ charset: 'abc' })); // 32-character string using only 'a', 'b', and 'c'
+console.log(generate({ charset: "abc" }));
+// 32-character string using only 'a', 'b', and 'c'
 
-console.log(generate({ charset: ['numeric', '!'] })); // 32-character string using numbers and '!'
+console.log(generate({ charset: ["numeric", "!"] }));
+// 32-character string using numbers and '!'
 
-generate({ charset: 'abc' }, (result) => {
-  console.log(result)}) // Callback
+generate({ charset: "abc" }, (result) => {
+  console.log(result);
+});
+// Callback
 ```
 
 ## Contributing
@@ -48,7 +53,7 @@ If you encounter any issues or have questions, please file an issue on the GitHu
 
 ## Changelog
 
-### 1.0.5
+### 1.0.7
 
 - Initial release
 - Basic string generation functionality

@@ -1,6 +1,6 @@
 {
   "name": "string-generate",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Generate random string ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,8 +12,45 @@
     "dev": "nodemon dist/index.js",
     "start:dev": "concurrently \"npm run watch\" \"npm run dev\""
   },
-  "keywords": [],
+  "keywords": ["string", "random", "generator", "typescript", "string-generate"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sameertahir024/Random-String-Generator-NPM-Package"
+  },
+  "homepage": "https://github.com/Sameertahir024/Random-String-Generator-NPM-Package#readme",
+  "bugs": {
+    "url": "https://github.com/Sameertahir024/Random-String-Generator-NPM-Package/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Muhammad Sameer",
+      "email": "sameertahir024@gmail.com",
+      "url": "https://github.com/Sameertahir024"
+    }
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/Sameertahir024"
+  },
+
   "author": "Muhammad Sameer",
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "dist"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^5.0.0",
