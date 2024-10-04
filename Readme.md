@@ -53,7 +53,7 @@ If you encounter any issues or have questions, please file an issue on the GitHu
 
 ## Changelog
 
-### 1.0.7
+### 1.0.8
 
 - Initial release
 - Basic string generation functionality
@@ -61,4 +61,4 @@ If you encounter any issues or have questions, please file an issue on the GitHu
 
 ---
 
-Made with ❤️ by [Muhammad Sameer]
+Made with ❤️ by Muhammad Sameer

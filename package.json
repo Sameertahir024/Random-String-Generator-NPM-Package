@@ -1,6 +1,6 @@
 {
   "name": "string-generate",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Generate random string ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,10 +17,7 @@
     "type": "git",
     "url": "https://github.com/Sameertahir024/Random-String-Generator-NPM-Package"
   },
-  "homepage": "https://github.com/Sameertahir024/Random-String-Generator-NPM-Package#readme",
-  "bugs": {
-    "url": "https://github.com/Sameertahir024/Random-String-Generator-NPM-Package/issues"
-  },
+ 
   "engines": {
     "node": ">=12.0.0"
   },
